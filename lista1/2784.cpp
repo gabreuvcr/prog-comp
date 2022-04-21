@@ -3,6 +3,8 @@
 #include <queue>
 
 #define INF 0x3f3f3f3f
+#define endl '\n'
+#define _ ios::sync_with_stdio(false); cin.tie(NULL);
 
 using namespace std;
 
@@ -51,7 +53,7 @@ int find_highest_ping(vector<pair<int, int>> graph[], int number_of_islands, int
     return highest_ping;
 }
 
-int main() {
+int main() { _
     int number_of_islands, number_of_cables, island_with_server;
 
     cin >> number_of_islands >> number_of_cables;
